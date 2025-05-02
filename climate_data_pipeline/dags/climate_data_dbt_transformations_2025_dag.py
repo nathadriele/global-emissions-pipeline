@@ -1,12 +1,3 @@
-"""
-DAG: climate_data_dbt_transformations
-Purpose : Run dbt transformations on climate data already consolidated in BigQuery,
-          waiting for the upstream Spark job to finish first.
-Author  : zoomcamp
-Created : 2023‑01‑01
-Updated : 2025‑05‑02
-"""
-
 from __future__ import annotations
 
 import os

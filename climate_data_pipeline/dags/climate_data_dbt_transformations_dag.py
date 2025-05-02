@@ -1,10 +1,3 @@
-"""
-DAG: climate_data_dbt_transformations
-Purpose : Run dbt models on consolidated climate data in BigQuery
-Author  : zoomcamp
-Updated : 2025‑05‑02
-"""
-
 from __future__ import annotations
 
 import os
