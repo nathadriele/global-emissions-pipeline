@@ -63,8 +63,14 @@ Configure via Admin → Variables no Airflow UI:
 
 ### Funcionalidades 
 
+- Retry e Timeout automáticos com requests.Session e Retry
+- Sensores externos para dependências entre DAGs (ExternalTaskSensorAsync)
+- Geração automática de artefatos dbt (dbt docs)
+- Particionamento e clustering no BigQuery
+- Tipagem estática com from __future__ import annotations
+- Caminhos com pathlib
 
-
+### Alguns Tipos de Exemplos de Indicadores World Bank
 
 
 
