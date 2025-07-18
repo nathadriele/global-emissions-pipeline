@@ -58,6 +58,8 @@ Funções principais:
 - `process_climate_csv()`
 - `combine_by_year()`
 
+<img width="368" height="353" alt="image" src="https://github.com/user-attachments/assets/62550c93-6e78-44ee-acce-6b2cd6b07b17" />
+
 ### Integração com GCP
 
 - Google Cloud Storage (GCS): Armazenamento de arquivos CSV e Parquet
@@ -98,5 +100,6 @@ Configure via Admin → Variables no Airflow UI:
 | `SI.POV.GINI`    | Índice de Gini                     |
 | `SL.UEM.TOTL.ZS` | Desemprego (% força de trabalho)   |
 
-#### Contribuição
+### Contribuição
+
 Contribuições são bem-vindas.
