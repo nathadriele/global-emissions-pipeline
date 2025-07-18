@@ -1,5 +1,10 @@
 ## Global Emissions Pipeline (Em desenvolvimento)
 
+![Airflow DAGs](https://img.shields.io/badge/airflow-DAGs-blue)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
+
 **Climate Data Pipeline** é uma estrutura modular e escalável que está sendo desenvolvida para orquestrar a extração, transformação e carregamento (ETL) de dados climáticos e socioeconômicos globais. O projeto integra dados da **ClimateTrace API** e **World Bank API**, realiza o processamento com **Spark**, transforma os dados com **dbt**, e armazena os resultados no **BigQuery** e **Google Cloud Storage**.
 
 *Está sendo desenvolvido como parte do Data Engineering Zoomcamp, com alterações adicionais para aprendizado/testes, ambientes de produção e/ou possível uso institucional.*
