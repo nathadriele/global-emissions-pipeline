@@ -2,6 +2,17 @@
 
 **Climate Data Pipeline** é uma estrutura modular e escalável que está sendo desenvolvida para orquestrar a extração, transformação e carregamento (ETL) de dados climáticos e socioeconômicos globais. O projeto integra dados da **ClimateTrace API** e **World Bank API**, realiza o processamento com **Spark**, transforma os dados com **dbt**, e armazena os resultados no **BigQuery** e **Google Cloud Storage**.
 
+*Está sendo desenvolvido como parte do Data Engineering Zoomcamp, com alterações adicionais para aprendizado/testes, ambientes de produção e/ou possível uso institucional.*
+
+### Requisitos
+
+- Python 3.9+
+- Apache Airflow 2.6+
+- Spark 3.x
+- GCP (GCS e BigQuery)
+- dbt
+- Bibliotecas: requests, pandas, tqdm, pyarrow, google-cloud-*
+
 ### Pipeline de Orquestração (Airflow)
 
 | DAG ID                                     | Descrição                                                                  |
@@ -82,12 +93,5 @@ Configure via Admin → Variables no Airflow UI:
 | `SI.POV.GINI`    | Índice de Gini                     |
 | `SL.UEM.TOTL.ZS` | Desemprego (% força de trabalho)   |
 
-
-
-
-
-
-
-
-
-  
+#### Contribuição
+Contribuições são bem-vindas.
