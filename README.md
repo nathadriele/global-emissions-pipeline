@@ -72,6 +72,15 @@ Configure via Admin → Variables no Airflow UI:
 
 ### Alguns Tipos de Exemplos de Indicadores World Bank
 
+| Código           | Descrição                          |
+| ---------------- | ---------------------------------- |
+| `SP.POP.TOTL`    | População total                    |
+| `NY.GDP.PCAP.CD` | PIB per capita                     |
+| `SI.POV.GAPS`    | Gap de pobreza (US\$2.15)          |
+| `SP.DYN.LE00.IN` | Expectativa de vida ao nascer      |
+| `SE.SEC.ENRR`    | Matrícula no ensino secundário (%) |
+| `SI.POV.GINI`    | Índice de Gini                     |
+| `SL.UEM.TOTL.ZS` | Desemprego (% força de trabalho)   |
 
 
 
